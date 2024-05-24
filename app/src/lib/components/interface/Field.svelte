@@ -72,7 +72,7 @@
   }
 </script>
 
-<div class={cx("relative group hover:ring-2 ring-offset-2 ring-primary-200-700-token", classNames)}>
+<div class={cx(isEditor ? "relative group hover:ring-2 ring-offset-2 ring-primary-200-700-token" : "", classNames)}>
   {#if isEditor}
     {#if field.type === "link"}
       <button 

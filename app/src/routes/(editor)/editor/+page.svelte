@@ -46,7 +46,7 @@
     >
       <MenuPages />
 
-      <div class="flex-1">
+      <div class="h-full w-full overflow-y-auto">
         <SectionsList />
       </div>
 

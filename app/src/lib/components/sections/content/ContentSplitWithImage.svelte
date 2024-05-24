@@ -5,8 +5,7 @@
 	import SectionContainer from "$lib/components/shared/SectionContainer.svelte"
 	import { contentSplitWithImageFields } from "./ContentSplitWithImageFields"
 
-  export let fields: ISectionFields
-
+  export let fields: ISectionFields  
 
   let image = fields.image || contentSplitWithImageFields.image
   let preTitle = fields.preTitle || contentSplitWithImageFields.preTitle
